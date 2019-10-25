@@ -64,7 +64,7 @@ module.exports = {
       repo : 'https://github.com/wzone001/cnBlog',
       path : '/home/kobe/schweini/share/nodejs/blog',
       ssh_options: ['ForwardAgent=yes'],
-      'post-deploy' : 'sudo yarn && pm2 reload ecosystem.config.js --env development'
+      'post-deploy' : 'yarn && pm2 reload ecosystem.config.js --env development'
     },
     dev: {}
   } 
