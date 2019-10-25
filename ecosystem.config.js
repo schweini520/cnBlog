@@ -42,7 +42,7 @@ module.exports = {
     production : {
       user : 'ubuntu',
       host : ['api1.wavlink.xyz', 'api2.wavlink.xyz'],
-      ref  : 'origin/master',
+      ref  : 'master',
       repo : 'https://github.com/wzone001/cnBlog',
       path : '/home/ubuntu/zhuwei/wlink_wsock',
       ssh_options: ['ForwardAgent=yes'],
@@ -51,7 +51,7 @@ module.exports = {
     testing : {
       user : 'root',
       host : '45.32.52.128',
-      ref  : 'origin/master',
+      ref  : 'master',
       repo : 'https://github.com/wzone001/cnBlog',
       path : '/root/blog',
       ssh_options: ['ForwardAgent=yes'],
@@ -60,7 +60,7 @@ module.exports = {
     staging: {
       user : 'kobe',
       host : '192.168.16.188',
-      ref  : 'origin/master',
+      ref  : 'master',
       repo : 'https://github.com/wzone001/cnBlog',
       path : '/home/kobe/schweini/share/nodejs/blog',
       ssh_options: ['ForwardAgent=yes'],
