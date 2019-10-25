@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/home/kobe/schweini/share/nodejs/blog/node_modules/express-session/node_modules/cookie'
+  Error: EACCES: permission denied, mkdir '/home/kobe/schweini/share/nodejs/blog/node_modules/express-session/node_modules/safe-buffer'
 
 npm manifest: 
   {
