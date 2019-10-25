@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/kobe/schweini/share/nodejs/blog/node_modules/express-session/node_modules/cookie'
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "ejs": "~2.6.1",
+      "express": "~4.16.1",
+      "express-session": "^1.16.2",
+      "http-errors": "~1.6.3",
+      "moment-timezone": "^0.5.26",
+      "mongoose": "^5.6.12",
+      "morgan": "~1.9.1",
+      "normalize": "^0.3.1",
+      "normalize.css": "^8.0.1",
+      "serve-favicon": "^2.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
